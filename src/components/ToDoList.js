@@ -15,13 +15,15 @@ export default function ToDoList() {
     dispatch(toggleCompleted(index))
   }
 
-  const fibonacci = (n) => {
-    if (n <= 1) {
-      return
-    }
-    return fibonacci(n - 1) + fibonacci(n - 2)
-  }
-  const result = fibonacci(35)
+  // const fibonacci = (n) => {
+  //   if (n <= 1) {
+  //     return
+  //   }
+  //   return fibonacci(n - 1) + fibonacci(n - 2)
+  // }
+  // const result = fibonacci(35)
+
+  // const result = useMemo(() => fibonacci(35), [])
 
   return (
     <ul className="todo-list">
